@@ -1,6 +1,5 @@
-import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react";
 import Intro from "@/components/intro";
-import { BorderBeam } from "@/components/ui/border-beam";
 import ShineBorder from "@/components/ui/shine-border";
 import Experience from "@/components/experience";
 import ContactForm from "@/components/ui/contact-form"; // Import the ContactForm component
@@ -34,6 +33,9 @@ export default function Home() {
 
       {/* Add FooterBar */}
       <FooterBar className="mt-auto" />
+
+      {/* Insert Analytics component */}
+      <Analytics />
     </div>
   );
 }
