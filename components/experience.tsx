@@ -37,7 +37,7 @@ const projects = [
     name: "This interactive resume!",
     description: "An expedition into the world of front-end providing an alternate to my resume.",
     imageUrl: "/assets/resume.png",
-    link: "https://link-to-project-five.com",
+    link: "https://portfolio2024-puce-delta.vercel.app/",
   },
   {
     id: 6,
