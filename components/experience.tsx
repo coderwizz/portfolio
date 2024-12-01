@@ -47,7 +47,7 @@ const projects = [
   },
   {
     id: 7,
-    name: "Problem Writing Leadership",
+    name: "Math Outreach Leadership",
     description: "We are dedicated to creating an educational and memorable math competition experience, writing 113 unique problems across 12 exams for over 2,500 high school students every year. This fall, we expanded our team size by 150% and are poised to expand our reach to middle schools by 2025.",
     imageUrl: "/assets/smt.png",
     link: "https://www.stanfordmathtournament.com/",
