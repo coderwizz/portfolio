@@ -71,41 +71,24 @@ const Experience = () => {
           <TabsTrigger value="projects">Projects</TabsTrigger>
         </TabsList>
         <TabsContent value="projects">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 p-4">
-            {projects.slice(0, 6).map((project) => (
-              <div
-                key={project.id}
-                className="border-2 border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
-                onClick={() => window.open(project.link, "_blank")}
-              >
-                <img
-                  src={project.imageUrl}
-                  alt={project.name}
-                  className="w-full h-40 object-cover rounded-t-lg"
-                />
-                <h3 className="mt-4 font-bold text-lg">{project.name}</h3>
-                <p className="text-gray-600 mt-2">{project.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="grid grid-cols-3 gap-6 p-4">
-            {projects.slice(6).map((project) => (
-              <div
-                key={project.id}
-                className="col-span-3 sm:col-span-2 border-2 border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
-                onClick={() => window.open(project.link, "_blank")}
-              >
-                <img
-                  src={project.imageUrl}
-                  alt={project.name}
-                  className="w-full h-40 object-cover rounded-t-lg"
-                />
-                <h3 className="mt-4 font-bold text-lg">{project.name}</h3>
-                <p className="text-gray-600 mt-2">{project.description}</p>
-              </div>
-            ))}
-          </div>
-        </TabsContent>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+    {projects.map((project) => (
+      <div
+        key={project.id}
+        className="border-2 border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
+        onClick={() => window.open(project.link, "_blank")}
+      >
+        <img
+          src={project.imageUrl}
+          alt={project.name}
+          className="w-full h-40 object-cover rounded-t-lg"
+        />
+        <h3 className="mt-4 font-bold text-lg">{project.name}</h3>
+        <p className="text-gray-600 mt-2">{project.description}</p>
+      </div>
+    ))}
+  </div>
+</TabsContent>
       </Tabs>
     </>
   );
