@@ -61,6 +61,24 @@ const projects = [
   },
 ];
 
+
+const workExperiences = [
+  {
+    id: 1,
+    title: "Research Intern, CURIS",
+    description: "Improved the performance of state-of-the-art LLM routers by 1.37% through the application of novel machine learning and cascading algorithms to optimize decision-making. Additionally, enhanced the RouterBench codebase by integrating four cutting-edge routers and refining the AIQ analysis algorithm for more accurate performance assessments.",
+    imageUrl: "/assets/curis.png",
+    link: "https://drive.google.com/file/d/1C96xcRiaKa-RLNgOat6vaumOCeIK0CiG/view",
+  },
+  {
+    id: 2,
+    title: "Undergraduate Researcher, SURIM",
+    description: "Improved the known adversarial performance of fair, sample-based online selection algorithms by 50% through the application of theoretical probability. Collaboratively authored a 40-page group paper that conceptualized and promoted the topic under the guidance of a mentor.",
+    imageUrl: "/assets/surim.png",
+    link: "https://drive.google.com/file/d/1ZtFotvpl3gwToDdoIvOT7xXr66SahP49/view",
+  },
+];
+
 const Experience = () => {
   return (
     <>
@@ -70,25 +88,60 @@ const Experience = () => {
           <TabsTrigger value="Education">Education</TabsTrigger>
           <TabsTrigger value="projects">Projects</TabsTrigger>
         </TabsList>
+        <TabsContent value="work experience">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+            {workExperiences.map((exp) => (
+              <div
+                key={exp.id}
+                className="border-2 border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
+                onClick={() => window.open(exp.link, "_blank")}
+              >
+                <img
+                  src={exp.imageUrl}
+                  alt={exp.title}
+                  className="w-full h-40 object-cover rounded-t-lg"
+                />
+                <h3 className="mt-4 font-bold text-lg">{exp.title}</h3>
+                <p className="text-gray-600 mt-2">{exp.description}</p>
+              </div>
+            ))}
+          </div>
+        </TabsContent>
+        <TabsContent value="Education">
+          <ul className="p1-10">
+            <div className="text-2xl font-bold">Stanford University, B.S Math, M.S Computer Science</div>
+            <li className="list-disc">Intro to Statistical Inference</li>
+            <li className="list-disc">Intro Probability Theory</li>
+            <li className="list-disc">Machine Learning (Ongoing)</li>
+            <li className="list-disc">Computer Architecture/Systems</li>
+            <li className="list-disc">Programming Abstractions (C++, algorithms)</li>
+            <li className="list-disc">Intro to Financial Decision-Making</li>
+            <li className="list-disc">Continuous Methods (honors math intro to real anal. lin alg)</li>
+            <li className="list-disc">Polya Problem Solving Seminar</li>
+            <li className="list-disc">NLP with Deep Learning (Python, Pandas, NumPy)</li>
+            <li className="list-disc">Differential Equations w. Lin Alg/Fourier</li>
+            <li className="list-disc">Independent Study (with Professor Nima Anari)</li>
+          </ul>
+        </TabsContent>
         <TabsContent value="projects">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
-    {projects.map((project) => (
-      <div
-        key={project.id}
-        className="border-2 border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
-        onClick={() => window.open(project.link, "_blank")}
-      >
-        <img
-          src={project.imageUrl}
-          alt={project.name}
-          className="w-full h-40 object-cover rounded-t-lg"
-        />
-        <h3 className="mt-4 font-bold text-lg">{project.name}</h3>
-        <p className="text-gray-600 mt-2">{project.description}</p>
-      </div>
-    ))}
-  </div>
-</TabsContent>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+            {projects.map((project) => (
+              <div
+                key={project.id}
+                className="border-2 border-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
+                onClick={() => window.open(project.link, "_blank")}
+              >
+                <img
+                  src={project.imageUrl}
+                  alt={project.name}
+                  className="w-full h-40 object-cover rounded-t-lg"
+                />
+                <h3 className="mt-4 font-bold text-lg">{project.name}</h3>
+                <p className="text-gray-600 mt-2">{project.description}</p>
+              </div>
+            ))}
+          </div>
+        </TabsContent>
       </Tabs>
     </>
   );
