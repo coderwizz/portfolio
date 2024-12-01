@@ -13,7 +13,7 @@ const projects = [
   {
     id: 2,
     name: "SocialParrot",
-    description: "Full-stack/ML project integrating OpenAI's CLIP, Word2Vec, and Elena Barry's Emojional Embeddings into a highly cost-optimized, time-efficient application that classifies user-provided images with emoji labels. A highly relevant project with applications in social media, accessibility technology, and video game AI.",
+    description: "Full-stack/ML project integrating OpenAI's CLIP, Word2Vec, and Elena Barry's Emojional Embeddings into a cost-optimized, time-efficient application that classifies user-provided images with emoji labels. A highly relevant project with applications in social media, accessibility technology, and video game AI.",
     imageUrl: "/assets/sp.png",
     link: "https://social-parrot.vercel.app/",
   },
