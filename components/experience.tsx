@@ -12,10 +12,10 @@ const projects = [
   },
   {
     id: 2,
-    name: "Problem Writing Leadership",
-    description: "We are dedicated to creating an educational and memorable math competition experience, writing 113 unique problems across 12 exams for over 2,500 high school students every year. This fall, we expanded our team size by 150% and are poised to expand our reach to middle schools by 2025.",
-    imageUrl: "/assets/smt.png",
-    link: "https://www.stanfordmathtournament.com/",
+    name: "SocialParrot",
+    description: "Full-stack/ML project integrating OpenAI's CLIP, Word2Vec, and Elena Barry's Emojional Embeddings into a highly cost-optimized, time-efficient application that classifies user-provided images with emoji labels. A highly relevant project with applications in social media, accessibility technology, and video game AI.",
+    imageUrl: "/assets/sp.png",
+    link: "https://social-parrot.vercel.app/",
   },
   {
     id: 3,
