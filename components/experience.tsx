@@ -47,17 +47,17 @@ const projects = [
   },
   {
     id: 7,
-    name: "Personal Blog Engine",
-    description: "A fully customizable blogging platform designed for sharing insights, ideas, and personal projects. Features Markdown support, tagging, and analytics.",
-    imageUrl: "/assets/blog.png",
-    link: "https://blog-engine.vercel.app/",
+    name: "Problem Writing Leadership",
+    description: "We are dedicated to creating an educational and memorable math competition experience, writing 113 unique problems across 12 exams for over 2,500 high school students every year. This fall, we expanded our team size by 150% and are poised to expand our reach to middle schools by 2025.",
+    imageUrl: "/assets/smt.png",
+    link: "https://www.stanfordmathtournament.com/",
   },
   {
     id: 8,
-    name: "AI Art Generator",
-    description: "An AI-powered platform that transforms textual descriptions into vivid, creative art pieces. Integrates advanced image generation models to explore the boundaries of creativity.",
-    imageUrl: "/assets/ai-art.png",
-    link: "https://ai-art.vercel.app/",
+    name: "Math Contest Awards",
+    description: "Relevant Awards: Top 200, William Lowell Putnam Mathematical Competition 2023; Qualifier, USA Mathematical Olympiad (USA(J)MO) 2019-2022; 5th Place, Stanford Math Tournament (Number Theory) 2021. At above: a humorous response by google’s AI when searching \“putnam 2023 top 200\”.",
+    imageUrl: "/assets/putnam.png",
+    link: "https://drive.google.com/file/d/1UWhDU9tVRIpAIQarwwmb8U9G8UpG1gnI/view?usp=drive_link",
   },
 ];
 
