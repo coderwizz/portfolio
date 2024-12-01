@@ -41,7 +41,7 @@ const projects = [
   {
     id: 6,
     name: "COMPOSE Leaderboard Prototype",
-    description: "Built using Next.js framework and JavaScript webscraper to create a prototype for the leaderboard now currently being used by the entire 70-person Stanford Math Tournament organization.",
+    description: "Built using the Next.js framework and a JavaScript webscraper to create a prototype for the leaderboard now currently being used by the entire 70-person Stanford Math Tournament organization.",
     imageUrl: "/assets/ldr.png",
     link: "https://github.com/coderwizz/compose-ldr",
   },
