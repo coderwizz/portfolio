@@ -63,8 +63,8 @@ const projects = [
     id: 9,
     name: "ML Research for SemEval/ACM",
     description: "Developed and tested a script to fine-tune LLaMA-2 7B with AWS, QLoRA, and NVIDIA CUDA. Resolved critical bug, saving key project for a team of eight despite senior developer absence. Collaborated with two sub-teams on data loaders, GPU management, and introspection to ensure smooth integration. Built an ML model classifying 20 bird species as part of SemEval onboarding.",
-    imageUrl: "/assets/putnam.png",
-    link: "https://drive.google.com/file/d/1UWhDU9tVRIpAIQarwwmb8U9G8UpG1gnI/view?usp=drive_link",
+    imageUrl: "/assets/acm.png",
+    link: "https://github.com/coderwizz/SemEval-5",
   },
 ];
 
