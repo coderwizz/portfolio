@@ -42,7 +42,7 @@ const ContactForm: React.FC = () => {
       <p className="text-center text-sm text-gray-500 mb-6">
         Or email me directly at{" "}
         <a href="mailto:ez26@stanford.edu" className="text-blue-500 hover:underline">
-          your.email@example.com
+          ez26@stanford.edu
         </a>
       </p>
 
