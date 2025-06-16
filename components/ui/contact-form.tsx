@@ -39,6 +39,12 @@ const ContactForm: React.FC = () => {
       className="w-full max-w-xl mx-auto mt-8 p-8 bg-white rounded-lg shadow-lg border border-gray-300 transform transition-all hover:scale-105"
     >
       <h2 className="text-4xl text-center font-semibold text-gray-800 mb-6">Let's Connect!</h2>
+      <p className="text-center text-sm text-gray-500 mb-6">
+        Or email me directly at{" "}
+        <a href="mailto:ez26@stanford.edu" className="text-blue-500 hover:underline">
+          your.email@example.com
+        </a>
+      </p>
 
       <div className="mb-6">
         <label htmlFor="name" className="block text-lg font-medium text-gray-700">Name</label>
