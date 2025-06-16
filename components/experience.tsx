@@ -118,8 +118,10 @@ const Experience = () => {
           <ul className="p1-10">
             <div className="text-2xl font-bold">Stanford University, B.S Math, M.S Computer Science</div>
             <li className="list-disc">Intro to Statistical Inference</li>
+            <li className="list-disc">Probability and Stochastic Differential Equations for Applications</li>
             <li className="list-disc">Intro Probability Theory</li>
-            <li className="list-disc">Machine Learning (Ongoing)</li>
+            <li className="list-disc">Deep Reinforcement Learning (PyTorch, NumPy)</li>
+            <li className="list-disc">Machine Learning (boosted trees, NN, feature engineering)</li>
             <li className="list-disc">Computer Architecture/Systems</li>
             <li className="list-disc">Programming Abstractions (C++, algorithms)</li>
             <li className="list-disc">Intro to Financial Decision-Making</li>
@@ -127,6 +129,7 @@ const Experience = () => {
             <li className="list-disc">Polya Problem Solving Seminar</li>
             <li className="list-disc">NLP with Deep Learning (Python, Pandas, NumPy)</li>
             <li className="list-disc">Differential Equations w. Lin Alg/Fourier</li>
+            <li className="list-disc">Information Science and Engineering</li>
             <li className="list-disc">Independent Study (with Professor Nima Anari)</li>
           </ul>
         </TabsContent>
