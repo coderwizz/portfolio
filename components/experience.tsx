@@ -82,7 +82,7 @@ const workExperiences = [
     title: "Undergraduate Researcher, SURIM",
     description: "Improved the known adversarial performance of fair, sample-based online selection algorithms by 50% through the application of theoretical probability. Collaboratively authored a 40-page group paper that conceptualized and promoted the topic under the guidance of a mentor.",
     imageUrl: "/assets/surim.png",
-    link: "https://drive.google.com/file/d/1ZtFotvpl3gwToDdoIvOT7xXr66SahP49/view",
+    link: "https://drive.google.com/file/d/1I-cfriVrOFyMCmJFaVVYS5jgbN4hH-Zj/view?usp=drive_link",
   },
 ];
 
