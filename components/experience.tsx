@@ -61,8 +61,8 @@ const projects = [
   },
   {
     id: 9,
-    name: "ML Research for SemEval/ACM",
-    description: "Developed and tested a script to fine-tune LLaMA-2 7B with AWS, QLoRA, and NVIDIA CUDA. Resolved critical bug, saving key project for a team of eight despite senior developer absence. Collaborated with two sub-teams on data loaders, GPU management, and introspection to ensure smooth integration. Built an ML model classifying 20 bird species as part of SemEval onboarding.",
+    name: "Deep RL Research for CS224R",
+    description: "Built a staged data pipeline tokenizing step-by-step reasoning chains into reverse curriculum difficulty-based stages for group final project implementing novel modifications (FastWarm, StartHard, FinalVanilla, GradMix) to the R3 algorithm for language model reasoning; trained Qwen2.5-Math-1.5B with GRPO on Orca-Math data, achieving 70.8% accuracy post-SFT (up 4.2% from baseline), yielding insights transferable to market data parsing in quant trading.",
     imageUrl: "/assets/acm.png",
     link: "https://github.com/coderwizz/SemEval-5",
   },
