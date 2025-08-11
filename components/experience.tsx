@@ -63,7 +63,7 @@ const projects = [
     id: 9,
     name: "Deep RL Research for CS224R",
     description: "Built staged data pipeline tokenizing step-by-step reasoning chains into reverse curriculum difficulty stages for final project implementing novel R3 modifications (FastWarm, StartHard, FinalVanilla, GradMix), post-training Qwen2.5-Math-1.5B with GRPO on Orca-Math data. Yielded insights transferable to market data parsing in quant trading.",
-    imageUrl: "/assets/acm.png",
+    imageUrl: "/assets/iris.png",
     link: "https://github.com/jackellishsieh/LLM-R4/tree/master/data%20scripts",
   },
 ];
