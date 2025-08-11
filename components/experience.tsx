@@ -129,7 +129,8 @@ const Experience = () => {
             <li className="list-disc">Polya Problem Solving Seminar</li>
             <li className="list-disc">NLP with Deep Learning (Python, Pandas, NumPy)</li>
             <li className="list-disc">Differential Equations w. Lin Alg/Fourier</li>
-            <li className="list-disc">Information Science and Engineering</li>
+            <li className="list-disc">Information Science and Engineering (Jupyter notebook, matplotlib)</li>
+            <li className="list-disc">Introduction to Topology and Geometry</li>
             <li className="list-disc">Independent Study (with Professor Nima Anari)</li>
           </ul>
         </TabsContent>
