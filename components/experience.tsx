@@ -64,7 +64,7 @@ const projects = [
     name: "Deep RL Research for CS224R",
     description: "Built a staged data pipeline tokenizing step-by-step reasoning chains into reverse curriculum difficulty-based stages for group final project implementing novel modifications (FastWarm, StartHard, FinalVanilla, GradMix) to the R3 algorithm for language model reasoning; trained Qwen2.5-Math-1.5B with GRPO on Orca-Math data, achieving 70.8% accuracy post-SFT (up 4.2% from baseline), yielding insights transferable to market data parsing in quant trading.",
     imageUrl: "/assets/acm.png",
-    link: "https://github.com/coderwizz/SemEval-5",
+    link: "https://github.com/jackellishsieh/LLM-R4/tree/master/data%20scripts",
   },
 ];
 
